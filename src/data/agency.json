@@ -1,27 +1,27 @@
 {
   "header": {
-    "title": "Foxy Agency Template",
-    "subtitle": "Made by Ryan Balieiro with Vue3 and Bootstrap 5.0",
-    "srcImage": "images/agency-logo.png",
+    "title": "Inmoval",
+    "subtitle": "Programación y chips",
+    "srcImage": "images/Inmoval-logo.png",
     "button": {
-      "label": "Find Out More",
+      "label": "Saber Más",
       "icon": "fa fa-search",
       "targetSection": "about"
     }
   },
 
   "navbar": {
-    "brand": "<span class='text-primary'>Foxy</span> Agency",
+    "brand": "<span class='text-primary'>Inmoval</span> Programación y chips",
     "srcLogo": "images/agency-logo-small.png",
     "menuOptions": [
       {
         "id": "about",
-        "label": "About",
+        "label": "Acerca de",
         "icon": "fa-solid fa-file"
       },
       {
         "id": "services",
-        "label": "Services",
+        "label": "Servicios",
         "icon": "fa-solid fa-wrench"
       },
       {
@@ -36,12 +36,12 @@
       },
       {
         "id": "reviews",
-        "label": "Reviews",
+        "label": "Reseñas",
         "icon": "fa-solid fa-comment"
       },
       {
         "id": "contact",
-        "label": "Contact",
+        "label": "Contacto",
         "icon": "fa-solid fa-envelope"
       }
     ]
@@ -49,20 +49,22 @@
 
   "about": {
     "id": "about",
-    "title": "<span class='text-primary'>About</span> Template",
-    "subtitle": "Get to know more about the project!",
+    "title": "<span class='text-primary'>Acerca</span> de Inmoval",
+    "subtitle": "Conoce acerca de nosotros!",
     "content": {
-      "image": "images/agency-logo.png",
+      "image": "images/Inmoval-logo.png",
       "paragraphs": [
-        "Ryan Balieiro created the Foxy Agency Template, a free Vue3 & Bootstrap 5.0 theme. The downloadable files consist of the entire source code, including HTML, CSS, and Javascript. Please feel free to download and customize the theme as you wish.",
-        "With this template, you have the freedom to create custom sections, fill pre-existing ones with your own content, and personalize the colors, fonts, and much more to your liking.",
-        "In case you encounter any challenges while attempting to customize or run this template, please feel free to reach out to me without any hesitation. I would be more than happy to extend my assistance and help you out in every possible way."
+              "Ofrecemos servicios especializados en programación de llaves con chip, duplicados con chip, reparación y copia de control remoto. Nuestro equipo altamente capacitado está preparado para satisfacer todas tus necesidades relacionadas con las llaves con chip.",
+              "Realizamos programación de llaves con chip utilizando la tecnología más avanzada. Si necesitas duplicar una llave con chip, ofrecemos duplicados precisos y funcionales para vehículos, hogares y otros tipos de llaves con chip.",
+              "Además, proporcionamos servicios de reparación de llaves con chip dañadas o que no funcionan correctamente. Nuestros expertos evaluarán y solucionarán cualquier problema para que puedas volver a utilizar tus llaves sin preocupaciones.",
+              "También realizamos copias de control remoto con precisión. Si necesitas un duplicado de tu control remoto para automóviles o portones eléctricos, podemos ayudarte.",
+              "En resumen, somos especialistas en programación de llaves con chip. Ofrecemos duplicados, reparaciones y copias de control remoto. Nuestro equipo confiable y experimentado garantiza soluciones de calidad para todas tus necesidades relacionadas con las llaves y los controles remotos con chip."
       ]
     },
     "button": {
       "label": "Download Now!",
       "icon": "fa-solid fa-download",
-      "href": "https://github.com/ryanbalieiro/foxy-template"
+      "href": "#"
     }
   },
 
@@ -222,26 +224,26 @@
 
   "contact": {
     "id": "contact",
-    "title": "Contact Us",
-    "subtitle": "Don't hesitate to reach us out!",
+    "title": "Contactanos",
+    "subtitle": "¡No dudes en contactarnos!",
 
     "placeholders": {
-      "name": "Your Name *",
-      "email": "Your Email *",
-      "subject": "Subject *",
-      "message": "Message *"
+      "name": "Nombre *",
+      "email": "Email *",
+      "subject": "Asunto *",
+      "message": "Mensaje *"
     },
 
     "button": {
-      "label": "Send Message",
+      "label": "Enviar Mensaje",
       "icon": "fa-solid fa-envelope me-2"
     }
   },
 
   "footer": {
     "location": {
-      "title": "Location",
-      "address": "999 Vue Developer's Avenue – Building 4A, Suite 32 <br> Cupertino – California"
+      "title": "Ubicación",
+      "address": "Santa Maria, Paradero 27 <br> Quilpué – Valparaíso"
     },
 
     "links": {
@@ -250,7 +252,7 @@
         {"icon": "fa-brands fa-twitter", "href": "https://twitter.com"},
         {"icon": "fa-brands fa-facebook", "href": "https://facebook.com"},
         {"icon": "fa-brands fa-linkedin", "href": "https://linkedin.com"},
-        {"icon": "fa-brands fa-spotify", "href": "https://spotify.com"}
+        {"icon": "fa-brands fa-instagram", "href": "https://www.instagram.com/inmoval_cars/"}
       ]
     },
 
