@@ -12,8 +12,8 @@
           <p v-html="paragraph"></p>
         </template>
 
-        <div class="text-center">
-          <XLButton :label="aboutData.button.label" :icon="aboutData.button.icon" :href="aboutData.button.href"></XLButton>
+        <div class="text-center">          
+          <XLButton :label="aboutData.button.label" :icon="aboutData.button.icon" @click="_onButtonClicked()"></XLButton>
         </div>
       </div>
     </div>
@@ -24,7 +24,12 @@
 import agencyData from '../data/agency.json'
 import XLButton from "../components/XLButton.vue"
 import PageSectionWrapper from "../components/PageSectionWrapper.vue"
+import {useLayout} from '../composables/layout.js'
 const aboutData = agencyData.about
+
+const _onButtonClicked = () => {
+  useLayout().scrollToSection(aboutData.button.targetSection);
+}
 </script>
 
 <style scoped lang="scss">
