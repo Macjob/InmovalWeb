@@ -52,7 +52,7 @@
     "title": "<span class='text-primary'>Acerca</span> de Inmoval",
     "subtitle": "Conoce acerca de nosotros!",
     "content": {
-      "image": "images/Inmoval-logo.png",
+      "image": "images/Inmoval-logo-black.svg",
       "paragraphs": [
               "Ofrecemos servicios especializados en programación de llaves con chip, duplicados con chip, reparación y copia de control remoto. Nuestro equipo altamente capacitado está preparado para satisfacer todas tus necesidades relacionadas con las llaves con chip.",
               "Realizamos programación de llaves con chip utilizando la tecnología más avanzada. Si necesitas duplicar una llave con chip, ofrecemos duplicados precisos y funcionales para vehículos, hogares y otros tipos de llaves con chip.",
@@ -166,7 +166,7 @@
 
   "clients": {
     "id": "reviews",
-    "title": "Resñas de <span class='text-primary'>clientes</span>",
+    "title": "Reseñas de <span class='text-primary'>clientes</span>",
     "subtitle": "Qué se esta diciendo de nosotros!",
 
     "testimonials": [
@@ -181,7 +181,13 @@
         "srcAvatar": "images/clients/cliente2.jpg",
         "message": "Me Sorprendí. Las 3 B. Recomendado totalmente.",
         "staffMember": "Miguel Cornejo."
-      }      
+      },
+      {
+        "organization": "Carola Espinoza",
+        "srcAvatar": "images/clients/cliente3.jpg",
+        "message": "¡El servicio de copia de llaves con chip es una maravilla! Rápido, eficiente y me hizo la vida mucho más fácil. ¡Recomendado al 100%!",
+        "staffMember": "Carola Espinoza Gutierrez"
+      }       
     ]
   },
 
