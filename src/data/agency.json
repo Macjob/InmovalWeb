@@ -31,7 +31,7 @@
       },
       {
         "id": "team",
-        "label": "Team",
+        "label": "Equipo",
         "icon": "fa-solid fa-user"
       },
       {
@@ -151,8 +151,8 @@
 
   "team": {
     "id": "team",
-    "title": "Our <span class='text-primary'>Team</span>",
-    "subtitle": "Meet our amazing crew!",
+    "title": "Nuestro <span class='text-primary'>Equipo</span>",
+    "subtitle": "Conoce a nuestro Equipo!",
     "members": [
       {
         "name": "Aldo Avalos",
