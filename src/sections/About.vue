@@ -3,7 +3,7 @@
     <div class="row">
       <!-- Image -->
       <div class="col col-12 col-md-6 text-center">
-        <img :src="aboutData.content.image" alt="logo" class="img img-fluid">
+        <img :src="aboutData.content.image" alt="logo" class="img img-fluid">        
       </div>
 
       <!-- Texts & Links -->

@@ -3,13 +3,14 @@
     <!-- Background -->
     <div class="content-top-bg">
       <div class="content-top-bg-overlay">
+        <iframe src='https://my.spline.design/untitled-26c516f0a1607b69fc5a7cdc604f6a88/' frameborder='0' width='100%' height='100%'></iframe>        
       </div>
     </div>
 
     <!-- Container -->
     <div class="container">
       <div class="container-content-wrapper">
-        <img :src="headerData.srcImage" class="img-fluid">
+        <img :src="headerData.srcImage" class="img-fluid">        
         <h1 class="heading mt-4">{{ headerData.title }}</h1>
         <p class="subheading">{{ headerData.subtitle }}</p>
         <XLButton :icon="headerData.button.icon" :label="headerData.button.label" @click="_onButtonClicked()"></XLButton>
