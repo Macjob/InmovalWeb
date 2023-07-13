@@ -56,7 +56,7 @@ const submitForm = () => {
     message: message.value
   })
   .then(() => {
-    messageStatus.value = 'Mensaje Enviado Correctamente';
+    messageStatus.value = 'Mensaje Enviado Correctamente.';
     name.value = '';
     email.value = '';
     subject.value = '';
